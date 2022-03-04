@@ -40,6 +40,7 @@ def setUp():
         print(f'Title is good!')
     except Exception as e:
         print(f'Title is not matching, check code please')
+    sleep(5)
 
 def createnewaccount():
     driver.find_element(By.ID, 'menuUser').click()
