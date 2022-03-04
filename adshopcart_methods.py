@@ -45,7 +45,7 @@ def setUp():
 def createnewaccount():
     driver.find_element(By.ID, 'menuUser').click()
     sleep(5)
-    driver.find_element(By.CSS_SELECTOR, ".create-new-account").click()
+    driver.find_element(By.LINK_TEXT, 'CREATE NEW ACCOUNT').click()
     sleep(2)
     driver.find_element(By.NAME, 'usernameRegisterPage').send_keys(locators.new_adshopcart_username)
     sleep(2)
