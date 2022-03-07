@@ -200,16 +200,4 @@ def logger():
 
 
 
-setUp()
-createnewaccount()
-myaccount()
-shoppingcart()
-signout()
-signin()
-deleteuser()
-checkifuserisdeleted()
-displays()
-tabs()
-contactus()
-tearDown()
-logger()
+
